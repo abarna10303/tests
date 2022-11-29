@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Table</title>
+		<meta name="viewport" content="width=device-width,initial-scale 1.0">
+		<meta name="author" content="Abarna">
+		<meta name="keywords" content="table">
+		<meta name="description" content="Html tables">
+		<style>
+			*
+			{
+				margin:0;
+				padding:0;
+				box-sizing:border-box;
+				font-family:sans-serif;
+			}
+			table
+			{
+				margin:0 auto;
+				border-collapse:collapse;
+				border:10px solid rgb(43,43,43);
+				
+			}
+			thead
+			{
+				color:white;
+				background-color:rgb(235,98,85);
+			}
+			tr:nth-child(even)
+			{
+				background-color:rgb(233,233,233);
+			}
+			th
+			{
+				padding:10px 20px;
+				text-align:left;
+			}
+			td
+			{
+				padding:10px 20px;
+			}
+			th:nth-child(odd)
+			{
+				padding-right:100px;
+			}
+			td:nth-child(odd)
+			{
+				padding-right:100px;
+			}
+			div
+			{
+				height:100%;
+				display:flex;
+				align-items:center;
+			}
+		</style>
+	</head>
+	<body>
+	<div>
+		<table>
+			<thead>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Occupation</th>
+				<th>Location</th>
+			</thead>
+			<tbody>
+				<td>Luke Peters</td>
+				<td>25</td>
+				<td>Web Developer</td>
+				<td>Bangalure,MA</td>
+				<tr>
+				<td>Joseph Smith</td>
+				<td>27</td>
+				<td>Project Manager</td>
+				<td>Somevill,MA</td>
+				<tr>
+				<td>Luke Peters</td>
+				<td>26</td>
+				<td>Web Developer</td>
+				<td>Arlingdan,MA</td>
+				<tr>
+				<td>Harry Harrian</td>
+				<td>25</td>
+				<td>Web Developer</td>
+				<td>Bangalure,MA</td>
+				<tr>
+			</tbody>
+		</table>
+	</div>
+	</body>
+</html>

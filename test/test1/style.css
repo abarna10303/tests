@@ -1,0 +1,153 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.contact-section
+{
+	margin:20px 0px;
+}
+.contact-container
+{
+	width:85%;
+	margin:0 auto;
+}
+.contact-title
+{
+	text-align:center;
+	padding:20px 0px;
+}
+.contact-title h1
+{
+		padding:10px 0px;
+		position:relative;
+}
+.contact-title p
+{
+	padding:10px 0px;
+}
+.contact-title h1:after
+{
+	content:"";
+	position:absolute;
+	width:40px;
+	border:2px solid rgb(71,178,228);
+	bottom:0px;
+	right:48%;
+} 
+.con-address
+{
+	padding:20px;
+	margin:0px 10px;
+	box-shadow:0px 0px 5px #80808021;
+	border-top:2px solid rgb(71,178,228);
+	border-bottom:2px solid rgb(71,178,228);
+}
+.con-form
+{
+	box-shadow:0px 0px 5px  #80808021;
+	padding:20px;
+	margin:0px 10px;
+	border-top:2px solid rgb(71,178,228);
+	border-bottom:2px solid rgb(71,178,228);
+}
+.add
+{
+	display:flex;
+	padding:10px 0px;
+}
+.info
+{
+	margin-left:10px;
+}
+.icon
+{
+	height:40px;
+	width:40px;
+	border-radius:50%;
+	background-color:rgb(231,245,251);
+	color:rgb(138,178,228);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+input,textarea
+{
+	padding:5px;
+	
+}
+.box
+{
+	margin:10px 0px;
+}
+.button
+{
+	display:flex;
+	justify-content:center;
+}
+.button button
+{
+	background-color:rgb(71,178,228);
+	padding:15px;
+	border-radius:50px;
+	border:none;
+	color:white;
+}
+.lbl
+{
+	display:inline-block;
+	padding:10px 0px;
+}
+@media (min-width:320px)
+{
+	.con-form
+	{
+		width:100%;
+		margin-top:20px;
+	}
+	.con-address
+	{
+		width:100%;
+	}
+	.name input
+	{
+		width:100%;
+	}
+	
+}
+@media (min-width:600px)
+{
+	.name input
+	{
+		width:100%;
+	}
+}
+@media (min-width:1025px)
+{
+	.contact-info
+	{
+		display:flex;
+		justify-content:space-between;
+	}
+	.con-form
+	{
+		width:60%;
+		margin-top:0px;
+	}
+	.con-address
+	{
+		width:43%;
+	}
+	.name
+	{
+		display:flex;
+		justify-content:space-between;
+	}
+	.name div
+	{
+		width:45%;
+	}
+}
